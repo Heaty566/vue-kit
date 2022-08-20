@@ -1,2 +1,4 @@
 import InputField from './InputField.vue';
-export { InputField };
+import FormBtn from './FormBtn.vue';
+
+export { InputField, FormBtn };
