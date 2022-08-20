@@ -1,4 +1,3 @@
-import AppVue from '@/App.vue';
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router';
 import Home from '../views/Home.vue';
 import Login from '../views/Login.vue';

@@ -8,7 +8,6 @@ const form = useForm<ILoginUser>({ defaultValues: { email: '', password: '' } })
 const { handleOnEndLoading, handleStartLoading, loadings } = useLoading();
 const handleSubmmit = async () => {
     handleStartLoading();
-
     await authApi.loginUser(form.formValues);
     handleOnEndLoading();
 };
